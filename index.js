@@ -29,7 +29,7 @@ bot.on('message', (msg) => {
   logActivity(msg);
 
   // Menanggapi perintah /mix
-  if (command.startsWith('/mix')) {
+  if (command.startsWith('/start')) {
     // Mengekstrak argumen dari pesan
     const args = command.split(' ');
     const url = args[1];
