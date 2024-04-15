@@ -57,7 +57,7 @@ bot.on('message', (msg) => {
       });
     } else {
       // Memberi tahu pengguna bahwa format pesan tidak benar
-      bot.sendMessage(chatId, 'Format pesan tidak benar. Gunakan format: /mix [url] [time] [thread] [rate]');
+      bot.sendMessage(chatId, 'Send Attack This Format: /mix [url] [time] [thread] [rate]');
     }
   }
 });
